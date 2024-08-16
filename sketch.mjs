@@ -12,7 +12,7 @@ let confidence = "";
 
 function preload() {
   // Load an image
-  img = loadImage('images/Cyanocitta_cristata.webp');
+  img = loadImage('images/gralha-3.jpg');
   mobile_net = ml5.imageClassifier('MobileNet');
 }
 
