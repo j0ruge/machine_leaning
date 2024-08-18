@@ -1,5 +1,3 @@
-
-
 let video;
 let detector;
 let detections = [];
@@ -27,7 +25,7 @@ async function setup()
 
 // Need to use draw() to display the webcam feed, refresh the image all the time
 
-function draw()
+async function draw()
 {
   image(video, 0, 0);  
 

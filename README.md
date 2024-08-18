@@ -5,6 +5,7 @@
   - [Troubleshootings](#troubleshootings)
     - ["... is not a function"](#-is-not-a-function)
   - [References](#references)
+    - [Tranfer Learning](#tranfer-learning)
 
 Classificação de imagem com MobileNet
 
@@ -62,3 +63,8 @@ ref. [What happened to older ml5.js releases?](https://docs.ml5js.org/#/welcome/
 - [COCO - Common Objets in Context](https://cocodataset.org/#home)
 - [Humans of AI](https://humans-of.ai/editorial/)
 - [Excavating AI - The Politics of Images in Machine Learning Training Sets](https://excavating.ai/)
+
+### Tranfer Learning
+
+- [Teachable Machine](https://teachablemachine.withgoogle.com/)
+- [Teachable Machine ver1](https://teachablemachine.withgoogle.com/v1/)
