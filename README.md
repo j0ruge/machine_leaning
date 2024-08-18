@@ -1,7 +1,7 @@
 # machine_leaning
 
 - [machine\_leaning](#machine_leaning)
-  - [Fature Extractor](#fature-extractor)
+  - [Feature Extractor](#feature-extractor)
   - [Testar](#testar)
   - [Troubleshootings](#troubleshootings)
     - ["... is not a function"](#-is-not-a-function)

@@ -11,6 +11,9 @@ let video;
 let label = "";
 let confidence = "";
 
+let classifierButton_01;
+let classifierButton_02;
+
 // function preload()
 // {
 //   mobile_net = ml5.featureExtractor('MobileNet', modelReady);
@@ -36,8 +39,9 @@ function gotResults(error, results)
     label = results[0].className;
     mobile_net.predict(gotResults);
   }
+}
 
-async function setup()
+function setup()
 {
   createCanvas(640, 480);
   background(0);
@@ -48,7 +52,20 @@ async function setup()
   video.hide();
   mobile_net = ml5.featureExtractor('MobileNet', modelReady);
   classifier = mobile_net.classification(video, videoReady);
-   
+  
+  // Add the new image with a label
+  classifierButton_01 = createButton('Fiat Lux');
+  classifierButton_01.mousePressed(function()
+  {
+    classifier.addImage('Fiat Lux');
+  });
+
+  // Add the new image with a label
+  classifierButton_02 = createButton('Tax');
+  classifierButton_02.mousePressed(function()
+  {
+    classifier.addImage('Tax');
+  });
 }
 
 async function draw()
@@ -62,16 +79,5 @@ async function draw()
   textSize(32);
   text(label,20,50);
 };
-//await setup();
-
-// function draw()
-// {
-//   setup();
-//   //circle(200, 200, 200);
-// };
-
-
-
-}
 
 
