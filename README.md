@@ -12,4 +12,14 @@ Classificação de imagem com MobileNet
 
 ----
 
-Testar [Build a Deep CNN Image Classifier with ANY Images](https://youtu.be/jztwpsIzEGc?si=zwTPbtSkkNzr0W-P)
+## Testar
+
+- [Build a Deep CNN Image Classifier with ANY Images](https://youtu.be/jztwpsIzEGc?si=zwTPbtSkkNzr0W-P)
+
+----
+
+## References
+
+- [COCO - Common Objets in Context](https://cocodataset.org/#home)
+- [Humans of AI](https://humans-of.ai/editorial/)
+- - [Excavating AI - The Politics of Images in Machine Learning Training Sets](https://excavating.ai/)
