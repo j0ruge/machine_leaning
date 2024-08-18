@@ -53,7 +53,7 @@ async function draw()
 // https://youtu.be/yNkAuWz5lnY?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&t=934
 function gotResults(results)
 {
-  console.log(results); 
+  //console.log(results); 
 
   // Display the label
   fill(255);
