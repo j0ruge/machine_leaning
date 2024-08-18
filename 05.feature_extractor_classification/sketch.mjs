@@ -11,8 +11,12 @@ let video;
 let label = "";
 let confidence = "";
 
+// Buttons for adding images to the classifier
 let classifierButton_01;
 let classifierButton_02;
+let classifierButton_03;
+let trainButton;
+
 
 // function preload()
 // {
@@ -29,15 +33,24 @@ function videoReady()
   console.log('Video is ready!!!');  
 }
 
+function whileTraining(loss)
+{
+  if (loss == null)
+  { 
+    console.log('Training Complete!!!');
+    classifier.classify(gotResults);}
+  else console.log(loss);
+}
+
 function gotResults(error, results)
 {
   if (error) console.error(error);
   else 
   {
-    //console.log(results); 
+    console.log(results); 
     
-    label = results[0].className;
-    mobile_net.predict(gotResults);
+    label = results[0].label;
+    classifier.classify(gotResults);
   }
 }
 
@@ -54,17 +67,33 @@ function setup()
   classifier = mobile_net.classification(video, videoReady);
   
   // Add the new image with a label
-  classifierButton_01 = createButton('Fiat Lux');
+  classifierButton_01 = createButton('Bill');
   classifierButton_01.mousePressed(function()
   {
-    classifier.addImage('Fiat Lux');
+    classifier.addImage('Bill');
+    console.log('Bill');
   });
 
   // Add the new image with a label
-  classifierButton_02 = createButton('Tax');
+  classifierButton_02 = createButton('JorUge');
   classifierButton_02.mousePressed(function()
+  {    
+    classifier.addImage('JorUge');
+    console.log('JorUge');
+  });
+
+  // Add the new image with a label
+  classifierButton_03 = createButton('none');
+  classifierButton_03.mousePressed(function()
   {
-    classifier.addImage('Tax');
+    classifier.addImage('none');
+    console.log('none');
+  });
+
+  // Train the classifier
+  trainButton = createButton('Train');
+  trainButton.mousePressed(function() {
+    classifier.train(whileTraining);
   });
 }
 
@@ -72,12 +101,13 @@ async function draw()
 {
   //setup();
   //circle(200, 200, 200);
-  image(video, 0, 0);
+  background(0);
+  image(video, 0, 0, 640, 480);
 
   // Printing class with the highest probability on the canvas
   fill(255);
   textSize(32);
-  text(label,20,50);
+  text(label,10, height - 10);
 };
 
 
