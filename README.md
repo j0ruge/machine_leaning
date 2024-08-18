@@ -1,6 +1,7 @@
 # machine_leaning
 
 - [machine\_leaning](#machine_leaning)
+  - [Fature Extractor](#fature-extractor)
   - [Testar](#testar)
   - [Troubleshootings](#troubleshootings)
     - ["... is not a function"](#-is-not-a-function)
@@ -21,7 +22,13 @@ Classificação de imagem com MobileNet
 - [ml5.js: Object Detection with COCO-SSD](https://www.youtube.com/watch?v=QEzRxnuaZCk&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=5)
 [@nebula.tv - ml5.js: Object Detection with COCO-SSD](https://nebula.tv/videos/the-coding-train-ml5-js-object-detection-with-coco-ssd)
 
-:memo: [ml5.js: Transfer Learning with Feature Extractor](https://www.youtube.com/watch?v=kRpZ5OqUY6Y&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=6)
+## Fature Extractor
+
+- [ml5.js: Transfer Learning with Feature Extractor](https://www.youtube.com/watch?v=kRpZ5OqUY6Y&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=6)
+:memo: [ml5.js: Feature Extractor Classification](https://www.youtube.com/watch?v=eeO-rWYFuG0&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=7)
+
+momento atual 
+https://youtu.be/eeO-rWYFuG0?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&t=224
 
 ----
 
