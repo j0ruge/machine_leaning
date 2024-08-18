@@ -22,7 +22,7 @@ Classificação de imagem com MobileNet
 - [ml5.js: Object Detection with COCO-SSD](https://www.youtube.com/watch?v=QEzRxnuaZCk&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=5)
 [@nebula.tv - ml5.js: Object Detection with COCO-SSD](https://nebula.tv/videos/the-coding-train-ml5-js-object-detection-with-coco-ssd)
 
-## Fature Extractor
+## Feature Extractor
 
 - [ml5.js: Transfer Learning with Feature Extractor](https://www.youtube.com/watch?v=kRpZ5OqUY6Y&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=6)
 :memo: [ml5.js: Feature Extractor Classification](https://www.youtube.com/watch?v=eeO-rWYFuG0&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=7)
@@ -44,7 +44,7 @@ https://youtu.be/eeO-rWYFuG0?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&t=224
 ### "... is not a function"
 
 Quick Fix!
-In the ml5 library's script tag, change latest to 0.12.2. If you are using p5.js, you can find the script tag in the index.html file of your p5 sketch.
+In the ml5 library's script tag, change the latest to 0.12.2. If you are using p5.js, you can find the script tag in the index.html file of your p5 sketch.
 
 Change this:
 
@@ -71,7 +71,7 @@ ref. [What happened to older ml5.js releases?](https://docs.ml5js.org/#/welcome/
 - [Humans of AI](https://humans-of.ai/editorial/)
 - [Excavating AI - The Politics of Images in Machine Learning Training Sets](https://excavating.ai/)
 
-### Tranfer Learning
+### Transfer Learning
 
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
 - [Teachable Machine ver1](https://teachablemachine.withgoogle.com/v1/)
