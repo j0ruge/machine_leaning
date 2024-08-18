@@ -6,7 +6,7 @@
   - [Troubleshootings](#troubleshootings)
     - ["... is not a function"](#-is-not-a-function)
   - [References](#references)
-    - [Tranfer Learning](#tranfer-learning)
+    - [Transfer Learning](#transfer-learning)
 
 Classificação de imagem com MobileNet
 
