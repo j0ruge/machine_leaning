@@ -28,7 +28,7 @@ Classificação de imagem com MobileNet
 :memo: [ml5.js: Feature Extractor Classification](https://www.youtube.com/watch?v=eeO-rWYFuG0&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=7)
 
 momento atual 
-https://youtu.be/eeO-rWYFuG0?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&t=224
+https://youtu.be/eeO-rWYFuG0?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&t=697
 
 ----
 
